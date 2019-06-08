@@ -1,0 +1,6 @@
+framework module Pods_FlickrTrending {
+  umbrella header "Pods-FlickrTrending-umbrella.h"
+
+  export *
+  module * { export * }
+}
