@@ -1,4 +1,4 @@
-FlickrTrending is an application to show trending photo on Flickr using Swift, MVVM architecture, Customize Transition Animation, Unit Testing, Pagination - Lazy loading, Caching.
+FlickrTrending is an application to show trending photo on Flickr using Swift, Customize Transition Animation, Unit Testing and MVVM architecture.
 
 Features:
 - Show yesterday trending photo.
