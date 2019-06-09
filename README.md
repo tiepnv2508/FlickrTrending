@@ -2,8 +2,9 @@ FlickrTrending is an application to show trending photo on Flickr using Swift, C
 
 Features:
 - Show yesterday trending photo.
-- Customize Transition Animation to show modal detail view.
-- Offline loading when have no internet connection.
+- Customize Transition Animation to show/dimiss modal detail view.
 - Pagination - Lazy loading.
+- Pull to refresh.
+- Offline loading when have no internet connection.
 
 
