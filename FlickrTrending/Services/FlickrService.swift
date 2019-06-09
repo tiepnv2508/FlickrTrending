@@ -85,7 +85,7 @@ class FlickrService {
     }
     
     //****************************************************
-    //* Get photo infomation by photoId
+    //* Fetch photo infomation by photoId
     //* Params: photoId, context
     //* Return values: Photo
     //****************************************************
