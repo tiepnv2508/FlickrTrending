@@ -18,9 +18,9 @@ struct PhotoListViewModel {
     }
 }
 
-extension PhotoListViewModel: Equatable {}
-
-func ==(lhs: PhotoListViewModel, rhs: PhotoListViewModel) -> Bool {
-    return lhs.id == rhs.id && lhs.photoUrl == rhs.photoUrl
+extension PhotoListViewModel: Equatable {
+    static func ==(lhs: PhotoListViewModel, rhs: PhotoListViewModel) -> Bool {
+        return lhs.id == rhs.id && lhs.photoUrl == rhs.photoUrl
+    }
 }
 

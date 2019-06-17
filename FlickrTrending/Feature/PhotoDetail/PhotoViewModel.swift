@@ -24,12 +24,12 @@ struct PhotoDetailViewModel {
     }
 }
 
-extension PhotoDetailViewModel: Equatable {}
-
-func ==(lhs: PhotoDetailViewModel, rhs: PhotoDetailViewModel) -> Bool {
-    return lhs.id == rhs.id &&
-        lhs.title == rhs.title &&
-        lhs.ownerName == rhs.ownerName &&
-        lhs.dateUploaded == rhs.dateUploaded &&
-        lhs.desc == rhs.desc
+extension PhotoDetailViewModel: Equatable {
+    static func ==(lhs: PhotoDetailViewModel, rhs: PhotoDetailViewModel) -> Bool {
+        return lhs.id == rhs.id &&
+            lhs.title == rhs.title &&
+            lhs.ownerName == rhs.ownerName &&
+            lhs.dateUploaded == rhs.dateUploaded &&
+            lhs.desc == rhs.desc
+    }
 }

@@ -28,6 +28,9 @@ class PresentAnimator: NSObject, UIViewControllerAnimatedTransitioning {
             containerView.safeAreaLayoutGuide.leadingAnchor.constraint(equalTo: toView.leadingAnchor, constant: -20).isActive = true
             containerView.safeAreaLayoutGuide.trailingAnchor.constraint(equalTo: toView.trailingAnchor, constant: 20).isActive = true
             
+            // Dim background view
+            containerView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5)
+            
             // set heightAnchor constraint if preferredContentSize.height > 0
             toViewController.preferredContentSize.height = toView.frame.size.height/2
             if toViewController.preferredContentSize.height > 0 {

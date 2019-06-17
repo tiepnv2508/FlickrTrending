@@ -9,28 +9,6 @@
 import UIKit
 
 extension UIView {
-//    func dropShadow(shadowColor: UIColor = UIColor.black,
-//                    opacity: Float = 0.5,
-//                    offset: CGSize = CGSize(width: 1.0, height: 2.0),
-//                    radius: CGFloat = 10,
-//                    cornerRadius: CGFloat = 15) {
-//        // set the shadow of the view's layer
-//        layer.shadowPath = UIBezierPath(roundedRect: self.bounds, cornerRadius: radius).cgPath
-//        layer.shouldRasterize = true
-//        layer.backgroundColor = UIColor.clear.cgColor
-//        layer.shadowColor = shadowColor.cgColor
-//        layer.shadowOffset = offset
-//        layer.shadowOpacity = opacity
-//        layer.shadowRadius = radius
-//        
-//        // set the cornerRadius of the containerView's layer
-//        let containerView = UIView()
-//        containerView.layer.cornerRadius = cornerRadius
-//        containerView.layer.masksToBounds = true
-//        
-//        addSubview(containerView)
-//    }
-    
     func dropShadow(shadowColor: UIColor = UIColor.black,
                     fillColor: UIColor = UIColor.white,
                     opacity: Float = 0.8,
